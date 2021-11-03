@@ -9,6 +9,10 @@ import { BlankComponent } from './components/main/blank/blank.component';
 import { LoginComponent } from './components/main/login/login.component';
 import { DashboardComponent } from './components/main/dashboard/dashboard.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
+import { InqueritosListarComponent } from './components/main/inqueritos/inqueritos-listar/inqueritos-listar.component';
+import { InqueritosModalAddComponent } from './components/main/inqueritos/inqueritos-modal-add/inqueritos-modal-add.component';
+import { InqueritosAddComponent } from './components/main/inqueritos/inqueritos-add/inqueritos-add.component';
+import { InqueritosResponderComponent } from './components/main/inqueritos/inqueritos-responder/inqueritos-responder.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { FooterComponent } from './components/layout/footer/footer.component';
     BlankComponent,
     LoginComponent,
     DashboardComponent,
-    FooterComponent
+    FooterComponent,
+    InqueritosListarComponent,
+    InqueritosModalAddComponent,
+    InqueritosAddComponent,
+    InqueritosResponderComponent
   ],
   imports: [
     BrowserModule,

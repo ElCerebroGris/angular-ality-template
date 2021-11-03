@@ -1,5 +1,8 @@
+<app-login *ngIf="!logado"></app-login>
+
+
 <div class="loader"></div>
-<div id="app">
+<div id="app" *ngIf="logado">
   <div class="main-wrapper main-wrapper-1">
     <div class="navbar-bg"></div>
     
@@ -9,8 +12,8 @@
 
     <!-- Main Content -->
     <div class="main-content">
-      
-      <app-blank></app-blank>
+
+      <router-outlet></router-outlet>
 
     </div>
 
